@@ -1,0 +1,23 @@
+{
+    "parent": "block/piston_inventory",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/_piston"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/short_piston"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/extended_piston"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "block/sticky_piston_inventory",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/_piston_sticky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/short_piston_sticky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/extended_piston_sticky"
+        }
+    ]
+}

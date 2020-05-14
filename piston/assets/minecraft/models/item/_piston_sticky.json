@@ -1,0 +1,16 @@
+{
+	"parent": "block/sticky_piston",
+	"textures": {
+		"platform": "block/piston_top_sticky",
+		"bottom": "block/piston_bottom",
+		"side": "block/piston_side",
+		"particle": "#side"
+	},
+	"display":{
+		"fixed": {
+			"rotation": [ 90, 0, 0 ],
+			"translation": [ 0, 0, -16 ],
+			"scale": [ 2, 2, 2 ]
+		}
+	}
+}
