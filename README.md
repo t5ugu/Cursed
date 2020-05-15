@@ -1,28 +1,11 @@
-# はじめに
-額縁にピストンを入れて作動させられるよってDatapackです。
-
-twitter(@t5ugu1)でつぶやいてるので、詳しくはそちらを見て頂くのが良いと思います。
-
-　
-
-このDatapackだけに言えることではありませんが、入れた瞬間からすべて自己責任です。
-
-特に、このDatapackはWorldを台無しにする可能性があるので、お気を付けください。
-
-特には権利を主張しません。ご自由にお使いください。
-
+# Cursed Piston
+ver. 1.16+
 # 概要
-このDatapackがenabledである場合、WorldのすべてのItem Frameが透明化します。
+注意: WorldのすべてのItem Frameが透明化します。
 
-　
+```/function piston:give```を実行すると、
 
-このdatapackを入れてまず初めに、```/function piston:give```を実行しましょう。
-
-すると、Item Frame、Piston、Sticky Piston、そしてCommand Blockが手元にあると思います。
-
-　
-
-以下、それぞれの説明です。
+以下のアイテムがもらえます。
 
 ・Item Frame
 
@@ -32,36 +15,48 @@ twitter(@t5ugu1)でつぶやいてるので、詳しくはそちらを見て頂�
 
 ・PistonとSticky Piston(以降、2つ合わせて*Pistonと表記)
 
-　　それぞれ、Custom Model Dataを変更したものです。
-
-　　それ以外は通常と変わりません。煮るなり焼くなりお好きにどうぞ。
+　　それぞれ、Custom Model Dataをもっていますが、それ以外は通常と変わりません。
 
 　
 
 ・Command Block(以降、*Command Blockと表記)
 
-　　Loreには何も書いてないですが、中にはしっかりとCommandが書かれています。
-
-　　不都合があれば、自由にお書換えください。
+　　Command記入済み。不都合があれば、書換え可。
 
 # 使い方
-好きなところにItem Frameを張り、*Pistonを飾りましょう。
+1. 好きなところにItem Frameをつけて、*Pistonを飾る。
 
-好きな角度に回転させて、*Command Blockを実行すると動きます。
+2. 好きな角度に回転させて、*Command Blockを実行すると動く。
 
-挙動はここでは説明しないので、自分で調べてください。
+挙動は各自、調べてください。
 
 　
 
-特別な理由がない限り、*Command Blockを実行させるのはButtonを用いてください。
+*Command Blockを実行させるのはButtonを用いる。
 
-スパンが短すぎると故障の原因になります。
+実行スパンが短すぎると故障の原因になるので注意。
 
 # フォルダーの説明
-・Cur'dPiston
+```
+<Root>
+┝-resourcepacks
+┃ ┇
+┃ ┝-"piston" <- DL and Drop
+┃ ┇
+┃
+┝-saves
+┇ ┇
+  ┝-<World>
+  ┇ ┝-advancements
+    ┝-data
+    ┝-datapack
+    ┇ ┇
+      ┝-"Cur'dPiston" <- DL and Drop
+      ┇
+```
+## Cur'dPiston
+functionが入っています。
 
-　　functionが入っています。
- 
-・piston
+## piston
+modelを構成しています。
 
-　　modelを構成しています。
