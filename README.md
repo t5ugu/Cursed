@@ -1,47 +1,52 @@
 # Cursed Piston
 ver. 1.16+
-# 概要
+## 概要
 注意: WorldのすべてのItem Frameが透明化します。
 
-```/function piston:give```を実行すると、
+## セットアップ
+```/function piston:give```をチャットから実行すると、
 
 以下のアイテムがもらえます。
 
-・Item Frame
+・**Item Frame**
 
 　　何の変哲もないItem Frameです。
 
 　
 
-・PistonとSticky Piston(以降、2つ合わせて*Piston*と表記)
+・PistonとSticky Piston(以降、2つ合わせて**Piston**と表記)
 
 　　それぞれ、Custom Model Dataをもっていますが、それ以外は通常と変わりません。
 
 　
 
-・Command Block(以降、*Command Block* と表記)
+・Command Block(以降、**Command Block** と表記)
 
 　　Command記入済み。不都合があれば、書換え可。
 
-# 使い方
+## 使い方
 1. 好きなところにItem Frameをつけて、*Piston*を飾る。
 
-2. 好きな角度に回転させて、*Command Block*を実行すると動く。
+2. 好きな角度に回転させて、
 
-挙動は各自、調べてください。
+2-1. *Command Block*をButtonで実行する。
 
-　
+2-2. ```/funtion piston:1st-start```をチャットで実行する。
 
-*Command Block*を実行させるのはButtonを用いる。
+2-1も2-2も、最寄りのものが動きます。
 
-実行スパンが短すぎると故障の原因になるので注意。
+VanillaのPiston/Sticky Pistonでできることは、疑似的に同じ挙動をします。
 
-# フォルダーの説明
+それ以外に、Item Frame特有の45°、135°、225°、315°の向きでも動くようにしたものが、このDatapackです。
+
+Buttonに最適なスパンで実行されるので、一度だけ実行することは出来ません。
+
+## フォルダーの説明
 ```
 <Root>
 ┝-resourcepacks
 ┃ ┇
-┃ ┝-"piston" <- DL and Drop
+┃ ┝-"piston" <- DL this
 ┃ ┇
 ┃
 ┝-saves
@@ -51,12 +56,15 @@ ver. 1.16+
     ┝-data
     ┝-datapack
     ┇ ┇
-      ┝-"Cur'dPiston" <- DL and Drop
+      ┝-"Cur'dPiston" <- DL this
       ┇
 ```
-## Cur'dPiston
+### Cur'dPiston
 functionが入っています。
 
-## piston
+これは**データパック**なので、これを*ワールド\datapack*に入れてください。
+
+### piston
 modelを構成しています。
 
+これは**リソースパック**なので、これを先程のデータパックを入れたフォルダーのあるところの*resourcepacks*に入れてください
