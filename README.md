@@ -13,26 +13,26 @@ ver. 1.16+
 
 　
 
-・PistonとSticky Piston(以降、2つ合わせて*Pistonと表記)
+・PistonとSticky Piston(以降、2つ合わせて*Piston*と表記)
 
 　　それぞれ、Custom Model Dataをもっていますが、それ以外は通常と変わりません。
 
 　
 
-・Command Block(以降、*Command Blockと表記)
+・Command Block(以降、*Command Block* と表記)
 
 　　Command記入済み。不都合があれば、書換え可。
 
 # 使い方
-1. 好きなところにItem Frameをつけて、*Pistonを飾る。
+1. 好きなところにItem Frameをつけて、*Piston*を飾る。
 
-2. 好きな角度に回転させて、*Command Blockを実行すると動く。
+2. 好きな角度に回転させて、*Command Block*を実行すると動く。
 
 挙動は各自、調べてください。
 
 　
 
-*Command Blockを実行させるのはButtonを用いる。
+*Command Block*を実行させるのはButtonを用いる。
 
 実行スパンが短すぎると故障の原因になるので注意。
 
