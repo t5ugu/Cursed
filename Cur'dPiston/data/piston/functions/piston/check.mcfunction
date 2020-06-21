@@ -1,10 +1,9 @@
-execute store result score @s Number if entity @e[tag=chain]
-
 # 自分が担当する position が #piston:slime の場合：
 execute at @s if block ~ ~ ~ #piston:slime run function piston:piston/alldir_smn
 
 # 次Stepの生成：
-execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags: [chain, way, tplz], Small: true}
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags: [chain, way, tplz], Small: true, Invisible:true}
+  execute store result score @e[tag=tplz] Number if entity @e[tag=chain]
   # 向きの継承
   execute if entity @s[tag=right] run tag @e[tag=tplz] add right
   execute if entity @s[tag=slant] run tag @e[tag=tplz] add slant

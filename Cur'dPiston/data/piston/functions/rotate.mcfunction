@@ -11,5 +11,6 @@ scoreboard players operation #risl Number %= #2 Number
 # pullをpushと見なす
 execute at @s[tag=pull] run function piston:pull2push
 
+scoreboard players set @s Number 1
 # メインループ
 execute at @s run function piston:piston/check

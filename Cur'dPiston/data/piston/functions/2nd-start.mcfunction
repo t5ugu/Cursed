@@ -1,0 +1,1 @@
+execute at @e[tag=lndmrk] as @e[type=item_frame, tag=!last, distance=..2] unless entity @s[nbt=!{Item:{id:"minecraft:piston"}},nbt=!{Item:{id:"minecraft:sticky_piston"}}] unless entity @s[scores={Number=..0,Number=2,Number=4..}] at @s run function piston:start

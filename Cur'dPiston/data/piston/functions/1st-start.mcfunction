@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {Duration: 30, Tags:[lndmrk]}
+execute as @e[type=item_frame, tag=!last, distance=..2, limit=1] unless entity @s[nbt=!{Item:{id:"minecraft:piston"}},nbt=!{Item:{id:"minecraft:sticky_piston"}}] unless entity @s[scores={Number=..0,Number=2,Number=4..}] at @s run function piston:start
