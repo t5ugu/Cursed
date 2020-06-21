@@ -6,3 +6,8 @@ scoreboard players set #1 Number 1
 scoreboard players set #2 Number 2
 scoreboard players set #4 Number 4
 scoreboard players set #8 Number 8
+
+scoreboard players set #rot Number 0
+scoreboard players set #fac Number 0
+
+scoreboard players set #Chains Number 0

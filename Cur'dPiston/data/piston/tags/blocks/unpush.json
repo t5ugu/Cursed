@@ -85,6 +85,10 @@
         "minecraft:beehive",
         
         "minecraft:lectern",
-        "minecraft:barrel"
+        "minecraft:barrel",
+
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil"
     ]
 }

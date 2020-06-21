@@ -17,12 +17,7 @@
         "minecraft:green_glazed_terracotta",
         "minecraft:red_glazed_terracotta",
         "minecraft:black_glazed_terracotta",
-        
-        "minecraft:anvil",
-        "minecraft:chipped_anvil",
-        "minecraft:damaged_anvil",
 
-        "#piston:break",
-        "#piston:unpushable"
+        "#piston:unpush"
     ]
 }

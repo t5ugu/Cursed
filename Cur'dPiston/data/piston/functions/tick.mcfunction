@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:item_frame] run data modify entity @s[nbt={Invisible:0b}] Invisible set value 1b
+execute as @e[type=minecraft:item_frame, nbt={Invisible:0b}] run data modify entity @s Invisible set value 1b

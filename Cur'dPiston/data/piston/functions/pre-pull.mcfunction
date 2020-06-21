@@ -1,0 +1,12 @@
+execute as @e[tag=chain, limit=1, scores={Number=1}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=2}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=3}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=4}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=5}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=6}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=7}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=8}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=9}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=10}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=11}] at @s run function piston:piston/push
+execute as @e[tag=chain, limit=1, scores={Number=12}] at @s run function piston:piston/push
