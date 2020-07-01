@@ -3,6 +3,8 @@ ver. 1.16+
 ## 概要
 注意: WorldのすべてのItem Frameが透明化します。
 
+CloneでDLしたくない方へ：https://ux.getuploader.com/CursedPiston/
+
 ## セットアップ
 ```/function piston:give```をチャットから実行すると、
 
